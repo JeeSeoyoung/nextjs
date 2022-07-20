@@ -133,3 +133,42 @@
     flex-direction: column;
   }
 }
+
+/* -----------------------css추가----------------------- */
+.article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 26rem;
+  max-width: 60vw;
+  margin: 0 auto;
+}
+.aboutMe{
+  display: flex;
+  flex-direction: column;
+}
+.ProfileContainer{
+  flex: 1;
+  height:20rem;
+  /* width: 20rem; */
+  text-align: center;
+  align-items: center;
+}
+.profileImage{
+  margin: 1rem;
+  border-radius: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.detail{
+  flex: 1;
+  font-size: calc(0.75em+1vw);
+  text-align: center;
+}
+.detail h4{
+  font-size: calc(0.75em+1vw);
+
+}
+.detail p{
+  font-size: calc(0.75em+1vw);
+}
