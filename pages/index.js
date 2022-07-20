@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Start enjoying by exploring <a href ="https://github.com/Holllywaterr.com/" className={styles.highlight}><u>Github!</u></a>
+          Start enjoying by exploring <a href ="https://github.com/Holllywaterr" className={styles.highlight}><u>Github!</u></a>
         </p>
 
         <div className={styles.grid}>
